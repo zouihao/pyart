@@ -10,7 +10,6 @@ dependencies:
   - pandas
   - netcdf4
   - pytest
-  - trmm_rsl
   - wradlib
   - cartopy
   - cvxopt
@@ -18,14 +17,12 @@ dependencies:
   - sphinx
   - ipython
   - pandoc
-  - netcdf4
-  - pytest
   - pkg-config
   - Cython
   - fsspec
   - s3fs
   - glpk
-  - cftime>=1.6.0
+  - cftime
   - pip
   - pip:
       - pydata-sphinx-theme<0.9.0
@@ -36,3 +33,4 @@ dependencies:
       - nbsphinx
       - pooch
       - versioneer
+      - xarray-datatree

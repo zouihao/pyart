@@ -4,7 +4,7 @@ The Python ARM Radar Toolkit (Py-ART)
 
 |GithubCI| |CodeCovStatus|
 
-|AnacondaCloud| |CondaDownloads|
+|AnacondaCloud| |PyPiDownloads| |CondaDownloads|
 
 |DocsUsers| |DocsGuides|
 
@@ -18,6 +18,9 @@ The Python ARM Radar Toolkit (Py-ART)
 
 .. |AnacondaCloud| image:: https://anaconda.org/conda-forge/arm_pyart/badges/version.svg
     :target: https://anaconda.org/conda-forge/arm_pyart
+
+.. |PyPiDownloads| image:: https://img.shields.io/pypi/dm/arm_pyart.svg
+    :target: https://pypi.org/project/arm-pyart/
 
 .. |CondaDownloads| image:: https://anaconda.org/conda-forge/arm_pyart/badges/downloads.svg
     :target: https://anaconda.org/conda-forge/arm_pyart/files
@@ -126,6 +129,9 @@ These include:
 
 * `ARTView <https://github.com/nguy/artview>`_ : 
   Interactive radar viewing browser.
+
+* `pyrad <https://github.com/MeteoSwiss/pyrad>`_ :
+  A real-time data processing framework developed by MeteoSwiss and MeteoFrance. 
 
 * `PyTDA <https://github.com/nasa/PyTDA>`_ : 
   Python Turbulence Detection Algorithm.
